@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#errors {
+    color: red;
+}
+
+/* whole board */
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: yellow;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* each square */
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+    background-color: yellow;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
