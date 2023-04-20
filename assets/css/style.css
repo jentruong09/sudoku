@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ubuntu&display=swap');
+
+:root {
+    --bg-color: #555555;
+    --second-bg-color: #333333;
+    --third-bg-color: #12151c;
+    --text-color: #fff;
+    --other-color: #a70000;
+}
+
 body {
+    font-family: 'Poppins', sans-serif;;
     text-align: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 hr {
     width: 500px;
+    color: var(--third-bg-color);
 }
 
 #errors {
-    color: red;
+    color: var(--other-color);
 }
 
 /* whole board */
@@ -23,7 +37,7 @@ hr {
 .tile {
     width: 48px;
     height: 48px;
-    border: 1px solid lightgrey;
+    border: .25px solid lightgrey;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -42,27 +56,28 @@ hr {
 .number {
     width: 44px;
     height: 44px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin: 2px;
     font-size: 20px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 7px;
 }
 
 .numberSelected {
-    background-color: grey;
+    background-color: var(--third-bg-color);
 }
 
 .tileStart {
-    background-color: whitesmoke;
+    background-color: var(--second-bg-color);
 }
 
 .horizontalLine {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .verticalLine {
-    border-right: 1px solid black;
+    border-right: 1px solid white;
 }
