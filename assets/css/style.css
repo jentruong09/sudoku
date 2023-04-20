@@ -54,3 +54,7 @@ hr {
 .numberSelected {
     background-color: grey;
 }
+
+.tileStart {
+    background-color: whitesmoke;
+}
