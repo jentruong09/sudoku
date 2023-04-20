@@ -58,3 +58,11 @@ hr {
 .tileStart {
     background-color: whitesmoke;
 }
+
+.horizontalLine {
+    border-bottom: 1px solid black;
+}
+
+.verticalLine {
+    border-right: 1px solid black;
+}
